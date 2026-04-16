@@ -168,5 +168,13 @@ ssh bandit18@bandit cat readme
 pass: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
 ```bash
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+## Level 20
+
+pass: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+```bash
 
 ```
