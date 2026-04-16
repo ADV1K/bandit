@@ -51,5 +51,15 @@ find inhere -type f -size 1033c -exec cat {} \;
 pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 ```bash
+find / -type f -size 33c -user bandit7 -group bandit6 -exec cat {} \;
+```
+
+Question: how to ignore files that you cannot read
+
+## Level 7
+
+pass: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+```bash
 
 ```
