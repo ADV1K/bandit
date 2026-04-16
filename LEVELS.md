@@ -124,5 +124,13 @@ ssh -i ~/.ssh/id_bandit14 bandit14@bandit
 pass: ssh-key
 
 ```bash
+cat /etc/bandit_pass/bandit14 | nc localhost 30000
+```
+
+## Level 15
+
+pass: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+```bash
 
 ```
