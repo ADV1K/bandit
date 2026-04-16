@@ -114,5 +114,15 @@ PS: we had to use xxd to take out the relevant chunk out of the binary file, res
 pass: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 ```bash
+cat ~/sshkey.private
+# save the above key, and then login via ssh to the next level
+ssh -i ~/.ssh/id_bandit14 bandit14@bandit
+```
+
+## Level 14
+
+pass: ssh-key
+
+```bash
 
 ```
