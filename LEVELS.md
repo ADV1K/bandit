@@ -35,5 +35,13 @@ cat "inhere/...Hiding-From-You"
 pass: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 ```bash
+bandit4@bandit:~$ find inhere -type f -exec grep "[a-zA-Z0-9]*" {} +
+```
+
+## Level 5
+
+pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+```bash
 
 ```
