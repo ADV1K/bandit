@@ -27,5 +27,13 @@ cat ~/--spaces\ in\ this\ filename--
 pass: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ```bash
+cat "inhere/...Hiding-From-You"
+```
+
+## Level 4
+
+pass: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+```bash
 
 ```
