@@ -75,3 +75,15 @@ sort data.txt | uniq -c | sort -n | head
 ## Level 9
 
 pass: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+```bash
+strings data.txt | grep =
+```
+
+## Level 10
+
+pass: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+```bash
+
+```
