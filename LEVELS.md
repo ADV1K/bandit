@@ -160,5 +160,13 @@ diff passwords.old passwords.new
 pass: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
 ```bash
+ssh bandit18@bandit cat readme
+```
+
+## Level 19
+
+pass: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+```bash
 
 ```
