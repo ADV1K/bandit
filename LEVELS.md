@@ -152,5 +152,13 @@ openssl s_client -ign_eof -connect localhost:<dynamic>
 pass: ssh-key
 
 ```bash
+diff passwords.old passwords.new
+```
+
+## Level 18
+
+pass: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+```bash
 
 ```
