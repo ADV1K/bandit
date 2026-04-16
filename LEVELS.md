@@ -101,5 +101,18 @@ cat data.txt | tr a-mn-zA-MN-Z n-za-mN-ZA-M
 pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 ```bash
+cd $(mktemp -d)
+xxd -r ~/data.txt | gzip -d | bzip2 -d | gzip -d | xxd -s 0x400 -l 217 | sed "s/000004/000000/" > 1.txt
+xxd -r 1.txt | bzip2 -d | xxd -s 0x200 -l 76 | sed "s/000002/000000/" | xxd -r | gzip -d
+```
+
+PS: we search for the file signature on https://filesig.search.org/ to find out which program was used to commpress the file. (gzip and bzip2)
+PS: we had to use xxd to take out the relevant chunk out of the binary file, rest was garbage.
+
+## Level 13
+
+pass: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+```bash
 
 ```
