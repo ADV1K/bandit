@@ -132,13 +132,24 @@ cat /etc/bandit_pass/bandit14 | nc localhost 30000
 pass: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 ```bash
-openssl s_client -connect localhost:30001
+openssl s_client -ign_eof -connect localhost:30001
 # then paste the password for the current level
 ```
 
 ## Level 16
 
 pass: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+```bash
+# find the port where the tcp server is running, should be one of the above between port 31000 and 32000
+ss -tulpn | grep .*:3
+# try connecting to all the ports above, and sending the password for current level, you'll eventually get a reply
+openssl s_client -ign_eof -connect localhost:<dynamic>
+```
+
+## Level 17
+
+pass: ssh-key
 
 ```bash
 
