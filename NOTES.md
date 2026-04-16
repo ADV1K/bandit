@@ -20,6 +20,8 @@ Host *
   GSSAPIAuthentication no
 
 Host bandit
-  Hostname bandit.labs.overthewire.org
   Port 2220
+  Hostname bandit.labs.overthewire.org
+  RequestTTY yes
+  RemoteCommand tmux new -A -s main
 ```
