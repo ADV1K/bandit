@@ -3,3 +3,9 @@
 ```bash
 cat ~/readme
 ```
+
+## Level 1
+
+```bash
+cat ~/-
+```
