@@ -43,5 +43,13 @@ bandit4@bandit:~$ find inhere -type f -exec grep "[a-zA-Z0-9]*" {} +
 pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ```bash
+find inhere -type f -size 1033c -exec cat {} \;
+```
+
+## Level 6
+
+pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+```bash
 
 ```
