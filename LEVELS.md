@@ -85,5 +85,21 @@ strings data.txt | grep =
 pass: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 ```bash
+base64 -d data.txt
+```
+
+## Level 11
+
+pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+```bash
+cat data.txt | tr a-mn-zA-MN-Z n-za-mN-ZA-M
+```
+
+## Level 12
+
+pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+```bash
 
 ```
