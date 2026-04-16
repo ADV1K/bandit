@@ -61,5 +61,17 @@ Question: how to ignore files that you cannot read
 pass: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 ```bash
-
+grep millionth data.txt
 ```
+
+## Level 8
+
+pass: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+```bash
+sort data.txt | uniq -c | sort -n | head
+```
+
+## Level 9
+
+pass: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
