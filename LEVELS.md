@@ -132,5 +132,14 @@ cat /etc/bandit_pass/bandit14 | nc localhost 30000
 pass: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 ```bash
+openssl s_client -connect localhost:30001
+# then paste the password for the current level
+```
+
+## Level 16
+
+pass: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+```bash
 
 ```
