@@ -193,5 +193,13 @@ cat $(cat /usr/bin/cronjob_bandit22.sh | tail -n 1 | cut -d" " -f4)
 pass: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 ```bash
+cat $(cat /usr/bin/cronjob_bandit23.sh | sed "s/\$myname/bandit23/" | bash 2>/dev/null | cut -d" " -f5)
+```
+
+## Level 23
+
+pass: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+```bash
 
 ```
