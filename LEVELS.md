@@ -176,5 +176,14 @@ pass: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 pass: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 ```bash
+cat /etc/bandit_pass/bandit20 | netcat -lp 5555 &
+~/suconnect 5555
+```
+
+## Level 21
+
+pass: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+```bash
 
 ```
