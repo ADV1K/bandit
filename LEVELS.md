@@ -185,5 +185,13 @@ cat /etc/bandit_pass/bandit20 | netcat -lp 5555 &
 pass: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 ```bash
+cat $(cat /usr/bin/cronjob_bandit22.sh | tail -n 1 | cut -d" " -f4)
+```
+
+## Level 22
+
+pass: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+```bash
 
 ```
