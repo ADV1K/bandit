@@ -284,5 +284,16 @@ cat README.md
 pass: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
 
 ```bash
+git clone ssh://bandit30-git@bandit/home/bandit30-git/repo
+cd repo
+git rev-list --objects --all
+git cat-file -p 84368f3a7ee06ac993ed579e34b8bd144afad351  # check all the dangling objects for the password
+```
+
+## Level 31
+
+pass: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+```bash
 
 ```
