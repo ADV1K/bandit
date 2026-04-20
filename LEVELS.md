@@ -215,5 +215,13 @@ cat /tmp/advik-pass24/pass
 pass: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 ```bash
+seq -w 0 9999 | xargs -I{} echo gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 {} | nc localhost 30002
+```
+
+## Level 25
+
+pass: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
+```bash
 
 ```
