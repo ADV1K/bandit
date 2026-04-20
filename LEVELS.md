@@ -253,5 +253,7 @@ pass: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 pass: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
 ```bash
-
+# clone the repo on your local machine, git password is the same as ssh password
+git clone ssh://bandit27-git@bandit/home/bandit27-git/repo
+cat repo/README
 ```
