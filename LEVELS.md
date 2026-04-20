@@ -223,5 +223,35 @@ seq -w 0 9999 | xargs -I{} echo gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 {} | nc localho
 pass: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
 ```bash
+cat ~/bandit26.sshkey
+
+# let's find what shell level 26 is using
+grep bandit26 /etc/passwd
+
+# let's find out what does `/usr/bin/showtext` shell do
+cat /usr/bin/showtext
+# exec more ~/text.txt
+# exit 0
+# this "custom shell", just starts a pager and exits, so we have to break out of the `more` pager. more on this below.
+```
+
+## Level 26
+
+pass: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
+```bash
+# ssh using the private key, shrink your terminal so that the `more` pager does not exit automatically
+# press `v` to open the file in vi, and run the following vi commands to get a shell
+# :set shell=/bin/bash
+# :shell
+# now that we have shell proper shell access, we can continue normally and find the passwd for next level
+~/bandit27-do cat /etc/bandit_pass/bandit27
+```
+
+## Level 27
+
+pass: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+
+```bash
 
 ```
