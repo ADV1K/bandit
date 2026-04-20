@@ -295,5 +295,19 @@ git cat-file -p 84368f3a7ee06ac993ed579e34b8bd144afad351  # check all the dangli
 pass: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
 
 ```bash
+git clone ssh://bandit31-git@bandit/home/bandit31-git/repo
+cd repo
+rm .gitignore
+echo "May I come in?" > key.txt
+git add key.txt
+git commit -m "feat: add key.txt"
+git push
+```
+
+## Level 32
+
+pass: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+```bash
 
 ```
