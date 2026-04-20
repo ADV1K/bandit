@@ -257,3 +257,21 @@ pass: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 git clone ssh://bandit27-git@bandit/home/bandit27-git/repo
 cat repo/README
 ```
+
+## Level 28
+
+pass: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+```bash
+git clone ssh://bandit28-git@bandit/home/bandit28-git/repo
+cd repo
+git diff a1487fd 00daa61  # the password was removed in the last commit
+```
+
+## Level 29
+
+pass: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+```bash
+
+```
