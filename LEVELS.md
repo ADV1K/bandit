@@ -273,5 +273,16 @@ git diff a1487fd 00daa61  # the password was removed in the last commit
 pass: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
 
 ```bash
+git clone ssh://bandit29-git@bandit/home/bandit29-git/repo
+cd repo
+git switch -c dev origin/dev
+cat README.md
+```
+
+## Level 30
+
+pass: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+```bash
 
 ```
