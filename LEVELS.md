@@ -309,5 +309,12 @@ git push
 pass: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
 
 ```bash
-
+$0 # expands the current shell name, so runs the sh shell normally
+cat /etc/bandit_pass/bandit33
 ```
+
+## Level 33
+
+pass: tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+
+khatam. tata. bye bye. goodbye.
